@@ -1,0 +1,75 @@
+Date,SpecimenLabel,Observers,Hare_Weight,Age,EstimatedAge,AgeRange,Hare_Sex,NumberOfChunks,WeightFinalSample_A,WeightFinalSample_B,WeightFinalSample_C,SampleDryWeight_A,SampleDryWeight_B,SampleDryWeight_C,TotalBodyLength_1,TotalBodyLength_2,TotalBodyLength_3,LeftHindFootLength_1,LeftHindFootLength_2,LeftHindFootLength_3,NeckCircumference_1,NeckCircumference_2,NeckCircumference_3,SkullLength_1,SkullLength_2,SkullLength_3,SkullWidth_1,SkullWidth_2,SkullWidth_3,MandibBoneSample,MandibBoneLabel,HairSample_UpperBack,HairSampleLabel_UpBack,FurSkin_Taken,FurSkin_Label,PlacedInDessicator,LeftoverReturnedtoFreezer,Comments
+2017-10-23,Test_1,MR,1500,Adult,,,Female,4,35,,,,,,45,44,45,12,13,12.3,4,5,5,21,19,20.5,6,7,5,Yes,Test1,Yes,Test1,,,Yes,Yes,
+2017-10-30,TCH001,MR,1381.5,Adult,4,3-4,Male,13,20.7,,,7.4,,,42,43,43.5,12.8,12.9,13.1,6.9,6.5,6.6,8,7.9,8,3.9,3.8,3.8,Yes,TCH_001_Mandib,Yes,TCH_001_hairsample,,,Yes,Yes,
+2017-10-31,TCH002,MF,914.3,Young,0,,Unknown,15,20.8,,,5.5,,,36,37,37,11.4,11.3,11.5,8.5,8.3,8.6,6.7,7.1,7.3,3.7,3.7,3.8,Yes,TCH_002_mandib,Yes,TCH_002_hair,,,Yes,Yes,
+2017-10-31,TCH003,MR,1727.9,Adult,2,,Female,16,22,,,6.6,,,44,44.5,44,12.8,12.7,12.7,10,10.1,9.6,8,8,7.9,3.9,4,4,Yes,TCH_003_mandib,Yes,TCH_003_hair,,,Yes,Yes,
+2017-11-01,TCH004,MR,1179.6,Adult,1,1-2,Male,19,23.8,,,6.5,,,40,39,40,11.9,12,12.1,8.3,7.8,7.9,7.1,7,7,3.9,3.7,3.8,Yes,TCH_004_mandib,Yes,TCH_004_hair,,,Yes,Yes,
+2017-11-07,TCH005,MR MF,1640.5,Adult,1,1-2,Male,25,23.4,,,8.1,,,43,42,43,13.8,13.9,14,9.4,9.2,9.1,8.2,8.4,8.2,4.2,4.3,4.2,Yes,TCH_005_mandib,Yes,TCH_005_hair,Yes,TCH_005_furskin,Yes,Yes,Fat deposit present on the belly
+2017-11-07,TCH006,MR MF,947.3,Young,0,,Unknown,19,29.3,,,8.3,,,37,37,37,11.4,11.6,11.6,8.2,8.3,8.1,6.9,6.8,6.7,3.6,3.6,3.6,Yes,TCH_006_mandib,Yes,TCH_006_hair,Yes,TCH_006_furskin,Yes,Yes,Coffee grinder did not work
+2017-11-07,TCH007,MR MF,1317.7,Adult,0,,Unknown,22,25.7,,,6.5,,,39,38.5,38,12.6,12.6,12.4,8.7,8.4,8.1,7.4,7.1,7.2,3.6,3.6,3.6,Yes,TCH_007_mandib,Yes,TCH_007_hair,Yes,TCH_007_furskin,Yes,Yes,
+2017-11-08,TCH008,MR,1194.8,Adult,0,,Male,26,23.1,,,7.1,,,41,40.5,40.5,12.5,12.6,12.6,7.4,7.4,7.2,7,7.1,7,3.6,3.7,3.6,Yes,TCH_008_mandib,Yes,TCH_008_hair,Yes,TCH_008_furskin,Yes,Yes,"Found yellowish lozenge-shaped structures in gut cavity, one per side. Gallbladder? -> mesentheric fat,
+Also, potential parasites. "
+2017-11-09,TCH009,MR MF,1278.5,Adult,0,,Female,22,29.8,,,8,,,43,43.5,43.5,13.1,13.1,13.2,9.9,9.7,9.5,8,7.9,7.9,3.9,3.9,3.8,Yes,TCH_009_mandib,Yes,TCH_009_hair,Yes,TCH_009_furskin,Yes,Yes,
+2017-11-11,TCH010,MR,1366.4,Adult,1,,Male,20,36,,,11.7,,,41.5,41.5,41,12.2,12.2,12.6,9.4,9.2,9.2,7.4,7.5,7.4,4,3.9,4,Yes,TCH_010_mandib,Yes,TCH_010_hair,Yes,TCH_010_furskin,Yes,Yes,First one for which we excluded ears from grinding 
+2017-11-11,TCH011,MR,1186.4,Adult,0,,Male,23,36.8,,,11.1,,,40,40,39.5,12.2,12.3,12.2,9,8.6,8.5,7.5,7.2,7.2,4.1,4.2,3.8,Yes,TCH_011_mandib,Yes,TCH_011_hair,Yes,TCH_011_furskin,Yes,Yes,
+2017-11-13,TCH012,MR,1343.4,Adult,0,,Unknown,28,32.1,,,9.2,,,43,43,43,13.5,13.6,13.5,9.1,8.6,8.7,7.6,7.1,7.1,4,4,4,Yes,TCH_012_mandib,Yes,TCH_012_hair,Yes,TCH_012_furskin,Yes,Yes,"Left hind quarter (thigh) eaten, femur shattered, intestine perforated. 
+Ears wet weight: 8.2g
+GM300 gives error 41 (speed sensor broken) when running at 800rpm with full chamber"
+2017-11-13,TCH013,MR,1500.1,Adult,3,2-3,Male,24,33.8,,,10.2,,,45,45,45,13.3,13.2,13.2,10.8,10.6,10.2,8,8,8.1,4.2,3.9,3.8,Yes,TCH_013_mandib,Yes,TCH_013_hair,Yes,TCH_013_furskin,Yes,Yes,Ears wet weight: 11.0g
+2017-11-14,TCH014,MR TH,1379,Adult,0,,Female,28,28.9,,,8.4,,,43,43,42,12.3,12.6,12.6,9,8.9,8.7,7.9,7.8,7.9,3.8,3.7,3.7,Yes,TCH_014_mandib,Yes,TCH_014_hair,Yes,TCH_014_furskin,Yes,Yes,Ears wet weight:8.1g
+2017-11-14,TCH015,MR TH,1307.6,Adult,0,,Female,29,34,,,10.5,,,43,42,42,12.9,12.9,12.9,9.3,8.9,8.9,7.9,7.7,7.8,3.7,3.7,3.8,Yes,TCH_015_mandib,Yes,TCH_015_hair,Yes,TCH_015_furskin,Yes,Yes,Ears wet weight: 7.5g
+2017-11-15,TCH016,MR,1642.1,Adult,2,2-3,Male,27,37.4,,,9.8,,,47,46.5,46.5,13.9,14.2,14.2,8.4,8.3,8.2,7.6,8.2,8,4,3.9,3.9,Yes,TCH_016_mandib,Yes,TCH_016_hair,Yes,TCH_016_furskin,Yes,Yes,Ears wet weight: 11.3g
+2017-11-16,TCH017,MR SL,1527,Adult,2,1-2,Male,27,38.7,,,12.9,,,45,44.5,45,12.9,13,13,11.1,10.6,10.3,7.9,7.9,7.8,4.2,4,4,Yes,TCH_017_mandib,Yes,TCH_017_hair,Yes,TCH_017_furskin,Yes,Yes,Ears wet weight=15.7
+2017-11-16,TCH018,MR SL,1416.4,Adult,1,1-2,Male,28,43.7,,,13.8,,,42,43,43,12.5,12.3,12.3,9.8,9.7,9.8,7.9,7.2,7.7,3.8,3.9,3.9,Yes,TCH_018_mandib,Yes,TCH_018_hair,Yes,TCH_018_furskin,Yes,Yes,Ears wet weight = 9.8
+2017-11-17,TCH019,MR,1380.7,Adult,1,,Female,27,42.4,,,11.5,,,41.5,42,41.5,12.7,12.6,12.6,8.6,8.5,8.5,7.8,8,7.8,4,3.9,4,Yes,TCH_019_mandib,Yes,TCH_019_hair,Yes,TCH_019_furskin,Yes,Yes,Ears wet weight: 8.6g
+2017-11-17,TCH020,MR MF,1523.2,Adult,1,,Female,34,41.1,,,12.1,,,41,42,42,13,13.1,13.1,4.5,4.1,4.2,7.7,7.8,7.9,3.8,3.8,3.9,Yes,TCH_020_mandib,Yes,TCH_020_hair,Yes,TCH_020_furskin,Yes,Yes,Ears wet weight: 7.3g
+2017-11-18,TCH021,MR TH,1566.6,Adult,1,,Female,26,41.1,,,13.3,,,43,44,44,13.9,13.9,13.9,8.4,8.6,8.5,7.7,7.5,7.6,4,4,4,Yes,TCH_021_mandib,Yes,TCH_021_Hair,Yes,TCH_021_Furskin,Yes,Yes,Ears wet weight 8.5g
+2017-11-18,TCH022,MR TH,1435.9,Adult,1,,Male,41,39.8,,,9.5,,,44,43,43,13.8,13.9,13.8,10.5,10.6,10.9,7.7,7.8,7.7,4,3.9,3.9,Yes,TCH_022_mandib,Yes,TCH_022_hair,Yes,TCH_022_furskin,Yes,Yes,Ears wet weight: 17.6g
+2017-11-20,TCH023,MR MF,1344.5,Adult,1,0-1,Female,24,39.8,,,12.1,,,45,44,44,13.4,13.4,13.4,8.9,8.8,8.5,7.7,7.6,7.7,3.9,4,3.9,Yes,TCH_023_mandib,Yes,TCH_023_hair,Yes,TCH_023_furskin,Yes,Yes,Ears wet weight: 8.0g
+2017-11-21,TCH024,MR MF,1594.6,Adult,1,1-2,Female,36,42.2,,,12.2,,,44,44,44,13.9,13.8,13.9,8.2,8.1,8.1,7.5,7.6,7.6,3.9,3.9,3.9,Yes,TCH_024_mandib,Yes,TCH_024_hair,Yes,TCH_024_furskin,Yes,Yes,"Ears wet weight:9.1g
+Ticks
+Possible tapeworm in guts"
+2017-11-21,TCH025,MR MF,1276.8,Adult,0,0-1,Female,34,39.9,,,10.9,,,44.5,44,44,13.1,13.2,13.2,9.2,9,9.1,7.9,7.9,7.6,3.7,3.8,3.8,Yes,TCH_025_mandib,Yes,TCH_025_hair,Yes,TCH_025_furskin,Yes,Yes,Ears wet weight: 9.2g
+2017-11-21,TCH026,MR MF,1341.9,Adult,1,,Male,34,38.3,,,11.9,,,44,43,43,13.1,13,13,8.3,8.5,8.4,7.3,7.6,7.5,3.9,3.9,4,Yes,TCH_026_mandib,Yes,TCH_026_hair,Yes,TCH_026_furskin,Yes,Yes,Ears wet weight: 9.2g
+2017-11-22,TCH027,MR YW,1776.5,Adult,6,,Male,40,52.4,,,14.9,,,46,47,47,13.3,13.2,13.3,9.6,9.8,9.6,7.7,7.6,7.7,3.7,3.9,3.7,Yes,TCH_027_mandib,Yes,TCH_027_hair,Yes,TCH_027_furskin,Yes,Yes,"Ears wet weight 8.7g, second vial dry weight 1.4g"
+2017-11-23,TCH028,MR,1390.1,Adult,3,,Female,36,41.6,,,14.1,,,43.5,43,43,12.8,12.8,12.8,8.4,8.4,8.2,7.5,7.7,7.6,3.7,3.7,3.6,Yes,TCH_028_mandib,Yes,TCH_028_hair,Yes,TCG_028_furskin,Yes,Yes,Ears wet weight: 6.3g
+2017-11-24,TCH029,MR,1024,Young,0,,Female,26,45.6,,,12.2,,,41,41,41,13.3,13.2,13.3,7.4,7.2,7.3,7.4,7.3,7.2,3.5,3.5,3.5,Yes,TCH_029_mandib,Yes,TCH_029_hair,Yes,TCH_029_furskin,Yes,Yes,Ears wet weight: 8.3g
+2017-11-25,TCH030,MR BS,1309.1,Adult,1,1-2,Female,26,51.1,,,14,,,44.5,44,44.5,13.6,13.5,13.5,9.9,9.4,9.1,8,7.7,7.8,3.7,3.8,3.8,Yes,TCH_030_mandib,Yes,TCH_030_hair,Yes,TCH_030_furskin,Yes,Yes,Ears wet weight: 13.4g
+2017-11-25,TCH031,MR BS,1401.2,Adult,1,,Female,31,45.2,,,11.9,,,43.5,43,43,13.2,13.2,13.1,8.3,8.2,8.3,7.8,7.4,7.6,3.8,3.7,3.7,Yes,TCH_031_mandib,Yes,TCH_031_hair,Yes,TCG_031_furskin,Yes,Yes,Ears wet weight: 12.5g
+2017-11-25,TCH032,MR BS,1359.4,Adult,2,1-2,Male,28,57.7,,,17.1,,,40.5,40,40,12,12.1,12,8.7,8.6,8.6,7.5,7.8,7.5,3.7,3.8,3.7,Yes,TCH_032_mandib,Yes,TCH_032_hair,Yes,TCH_032_furskin,Yes,Yes,"Guts still partially frozen, fur very wet
+Ears wet weight: 12.1g"
+2017-11-27,TCH033,MR,1511.3,Adult,0,,Female,27,48.5,,,14.4,,,43,43,42.5,12.7,12.8,12.6,8.3,8.4,8.3,7.4,7.6,7.6,3.8,3.7,3.8,Yes,TCH_033_mandib,Yes,TCH_033_hair,Yes,TCH_033_furskin,Yes,Yes,Ears wet weight: 11.2g
+2017-11-28,TCH034,MR MF,1418.4,Adult,0,,Female,29,40.3,,,11.5,,,41.5,42,42,13.3,13.2,13.2,9.5,9.4,9.3,7.3,7.3,7.2,3.8,3.8,3.8,Yes,TCH_034_mandib,Yes,TCH_034_hair,Yes,TCH_034_furskin,Yes,Yes,Ears wet weight 10.3
+2017-11-28,TCH035,MR MF,1545.6,Adult,2,2-3,Male,26,51.9,,,16,,,45,45,45,13.4,13.4,13.3,9.6,9.4,9.2,8,8,8.1,4.2,4.2,4.1,Yes,TCH_035_mandib,Yes,TCH_035_hair,Yes,TCH_035_furskin,Yes,Yes,Ears wet weight: 9.5g
+2017-11-29,TCH036,MR,1408.9,Adult,3,,Male,28,50.5,,,16.1,,,42.5,42.5,43.5,12.9,12.9,12.9,9.3,9.5,9.1,8.2,8.2,8.1,3.8,3.8,3.8,Yes,TCH_036_mandib,Yes,TCH_036_hair,Yes,TCH_036_furskin,Yes,Yes,Ears wet weight: 17.3g (still some fur on them)
+2017-12-01,TCH037,MR TH,1511.7,Adult,2,,Male,59,54.1,62.1,59.7,12,12.1,10.6,42.5,42,42,12.6,12.6,12.7,9.5,9.5,9.4,7.9,7.9,7.7,4,4,4,Yes,TCH_037_mandib,Yes,TCH_037_hair,Yes,TCH_037_furskin,Yes,Yes,"Ears wet weight: 11.5g; Remnants of food in mouth; Sample B: 62.1g; Sample C: 59.7g , Sample A 2nd vial 5.6g; Sample B 2nd vial 7.6g; Sample C 2nd vial 8.6g"
+2017-12-01,TCH038,MR TH,1238.1,Adult,0,,Male,51,58.2,,,16.2,,,40,40,40,12.8,12.8,12.8,8.1,8,8,7.2,7.1,7.1,3.7,3.7,3.6,Yes,TCH_038_mandib,Yes,TCH_038_hair,Yes,TCH_038_furskin,Yes,Yes,"Ears wet weight: 9.1g
+Tapeworm in intestine"
+2017-12-02,TCH039,MR,1179.8,Young,0,,Unknown,35,44.9,,,11.2,,,41,41,41,12.6,12.6,12.7,8,7.8,7.8,7.3,6.9,6.9,3.7,3.7,3.7,Yes,TCH_030_mandib,Yes,TCH_039_hair,Yes,TCH_039_furskin,Yes,Yes,Ears wet weight:10.6g
+2017-12-02,TCH040,MR,1271.2,Adult,3,2-3,Female,30,40.7,45.2,41.6,12,12.5,11.8,43,43,43,12.7,12.7,12.7,10.5,10.1,10.1,8,8,7.8,3.8,3.7,3.7,Yes,TCH_040_mandib,Yes,TCH_040_hair,Yes,TCH_040_furskin,Yes,Yes,"Ears wet weight: 11.8g
+Sample B: 45.2g
+Sample C: 41.6g"
+2017-12-04,TCH041,MT YW,1642.3,Adult,1,0-1,Male,31,51.3,,,15.6,,,43.5,43.5,44,13.9,13.8,13.8,9.8,9.7,9.5,7.9,8,7.9,3.8,3.8,3.8,Yes,TCH_041_mandib,Yes,TCH_041_hair,Yes,"TCH_041_furskin
+",Yes,Yes,"Back hair sample taken with scissors because clippers were not charged
+ear weight 9.8g"
+2017-12-04,TCH042,MR YW,1575.9,Adult,1,,Male,33,51,43.9,44.5,15.3,13.3,13.6,44,44,44,12.8,12.8,12.8,10.2,10.1,10.1,8.2,8.2,8.2,4,4.2,4.1,Yes,TCH_042_mandib,Yes,TCH_042_hair,Yes,TCH_042_furskin,Yes,Yes,"Back hair sample taken with scissors because clippers were not charged
+ear weight 13.3g
+Sample B: 43.9g
+Sample C: 44.5g"
+2017-12-05,TCH043,MR JBF,1383.3,Adult,0,,Male,30,44.6,,,12.5,,,43,43,43,13.1,13.1,13.2,9.1,9,9,7.6,7.8,7.6,3.5,3.5,3.6,Yes,TCH_043_mandib,Yes,TCH_043_hair,Yes,TCH_043_furskin,Yes,Yes,"Hair sample taken with scissors as the razor was not working
+Ear wet weight: 9.5g"
+2017-12-05,TCH044,MR JBF,1366.8,Adult,0,,Male,24,46.6,,,13.8,,,42,42,42.5,13.3,13.3,13.4,8.4,8.5,8.3,7.3,7.3,7.4,3.8,3.7,3.7,Yes,TCH_044_mandib,Yes,TCH_044_hair,Yes,TCH_44_furskin,Yes,Yes,"Ear wet weight 9.5
+Hair taken with scissors"
+2017-12-06,TCH045,MR,1204.8,Adult,0,,Male,29,45.6,47.5,49.5,12.1,12.7,13.2,42.5,43,43,12.8,12.7,12.7,8.7,8.5,8.5,7.2,7.2,7.2,3.6,3.6,3.6,Yes,TCH_045_mandib,Yes,TCH_045_hair,Yes,TCH_045_furskin,Yes,Yes,"Ears wet weight: 7.7g
+Sample B:47.5g
+Sample C:49.5g"
+2017-12-06,TCH046,MR EVW,1296.1,Adult,0,,Male,22,44.7,,,12,,,42,42.5,42.5,13.7,13.7,13.7,9.2,8.9,8.9,7,7.2,7.2,3.9,3.9,4,Yes,TCH_046_mandib,Yes,TCH_046_hair,Yes,TCH_046_furskin,Yes,Yes,Ears weight: 9.6g
+2017-12-07,TCH047,MR,1525.7,Adult,0,,Male,34,46.5,,,14,,,44,44,44,13.5,13.5,13.5,8.2,8.1,8.1,7.8,7.9,7.7,3.7,3.7,3.8,Yes,TCH_047_mandib,Yes,TCH_047_hair,Yes,TCH_047_furskin,Yes,Yes,"Ears wet weight: 10.0g
+Hair sample taken with scissors as razor was broken"
+2017-12-07,TCH048,MR,1060.1,Young,0,,Male,33,58.2,50.5,48.7,15.1,13.1,12.4,39,39,39,11.8,11.9,11.9,7.5,7.8,7.7,6.7,6.8,6.7,3.4,3.5,3.4,Yes,TCH_048_mandib,Yes,TCH_048_hair,Yes,TCH_048_furskin,Yes,Yes,"Hair sample taken with scissors as razor was broken
+Ears wet weight: 7.9g
+Sample B:50.5g
+Sample C:48.7g"
+2017-12-08,TCH049,MR,1476.3,Adult,1,,Female,33,59.2,,,15.5,,,43.5,43,44,12.9,13,13,8.3,8.2,8.2,7.8,7.7,7.7,3.7,3.7,3.7,Yes,TCH_049_mandib,Yes,TCH_049_hair,Yes,TCH_049_furskin,Yes,Yes,Hair samples taken with scissors as razor was broken; Ears wet weight: 12.5g; 2nd vial 1.8g
+2017-12-08,TCH050,MR,1149,Adult,2,1-2,Female,33,49.6,,,14.8,,,42.5,43,43,12.5,12.4,12.6,9,9.1,9,7.4,7.6,7.5,3.6,3.7,3.6,Yes,TCH_050_mandib,Yes,TCH_050_hair,Yes,TCH_050_furskin,Yes,Yes,"Hair samples taken with scissors as razor was broken
+Ears wet weight: 11.1g"
