@@ -1,4 +1,4 @@
-# Code and data to reproduce Rizzuto et al. analyses of variability in organismal elemental composition of snowshoe hares
+# Intraspecific Stoichiometric Variability
 This repository contains code, data, and results for Rizzuto et al. Patterns and potential drivers of intraspecific variability in the body elemental composition of a terrestrial consumer, the snowshoe hare (_Lepus americanus_).
 
 * Code contains the R scripts necessary to replicate our analyses
