@@ -53,7 +53,7 @@ summary(LHF_model)
 LHF_BW_p <- ggplot(HareMorphStoich_norep, aes(x = log(AvgLeftHindFootLength), 
                                   y = log(Hare_Weight))) + 
   geom_point() +
-  xlab("Ln Left Hind Foot length (mm)") +
+  xlab("Ln Left Hind Foot length (cm)") +
   ylab("Ln Hare Body Weight (g)") +
   # theme_fira() +
   theme_classic() + 
@@ -72,7 +72,7 @@ summary(LHF_BW_model)
 
 SW_BW_p <- ggplot(HareMorphStoich_norep, aes(x = log(AvgSkullWidth), y = log(Hare_Weight))) + 
   geom_point() +
-  xlab("Ln Skull width (mm)") +
+  xlab("Ln Skull width (cm)") +
   ylab("Ln Hare Body Weight (g)") +
   # theme_fira() +
   theme_classic() + 
@@ -90,7 +90,7 @@ summary(SW_BW_model)
 
 SL_BW_p <- ggplot(HareMorphStoich_norep, aes(x = log(AvgSkullLength), y = log(Hare_Weight))) +
   geom_point() +
-  xlab("Ln Skull length (mm)") +
+  xlab("Ln Skull length (cm)") +
   ylab("Ln Hare Body Weight (g)") +
   # theme_fira() +
   theme_classic() + 
@@ -108,7 +108,7 @@ summary(SL_BW_model)
 
 ABL_BW_p <- ggplot(HareMorphStoich_norep, aes(x = log(AvgBodyLength), y = log(Hare_Weight))) +
   geom_point() +
-  xlab("Ln Total Body length (mm)") +
+  xlab("Ln Total Body length (cm)") +
   ylab("Ln Hare Body Weight (g)") +
   # theme_fira() +
   theme_classic() + 

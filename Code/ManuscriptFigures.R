@@ -24,7 +24,7 @@ HareConcentrations_noreplong <- gather(HareConcentrations_norep,
 ggplot(HareConcentrations_noreplong, aes(x = Hare_Sex, y = Concentration)) + 
   geom_boxjitter(aes(fill = Hare_Sex, color = Hare_Sex), alpha = 0.5,
                  jitter.shape = 21, jitter.size = 4,
-                 jitter.alpha = 0.6,
+                 jitter.alpha = 0.6, 
                  outlier.shape = NA,
                  errorbar.draw = TRUE) + 
   ylab("Concentration (%)\n") + 
@@ -240,8 +240,17 @@ ggsave(filename = "../Results/BCIvsAge.pdf", bcivsage, device = "pdf", dpi = 600
 
 
 
+#### Potentially another SI Figure ####
 
+# Showing variability in P among the 5 samples that were run in triplicate
+pvar_boxplot <- ggplot(data = pseudoreps, aes(x = SpecimenLabel, y = P)) + 
+  geom_boxplot() + geom_jitter(fill = "red", size = 3, shape = 21) +
+  coord_flip() + 
+  ylab("%P") +
+  xlab("Sample ID") +
+  theme_minimal() 
 
+ggsave("../Results/P_explorer.pdf", pvar_boxplot, device = "pdf", dpi = 600) 
 
 
 
