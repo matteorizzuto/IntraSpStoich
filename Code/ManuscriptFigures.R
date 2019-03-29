@@ -169,7 +169,7 @@ ggsave("FigureS3_N_explorer.pdf", nvar_boxplot, device = "pdf", dpi = 600,
 pvar_boxplot <- ggplot(data = pseudoreps, aes(x = SpecimenLabel, y = P)) + 
   geom_boxplot() + geom_jitter(fill = "red", size = 3, shape = 21) +
   coord_flip() + 
-  ylab("%P") +
+  ylab("Phosphorus content (%)") +
   xlab("Sample ID") +
   theme_minimal() 
 
@@ -192,7 +192,7 @@ knplot <- ggplot(HareMorphStoich_norep,
           geom_boxjitter(jitter.shape = 21,
                          jitter.size = 2,
                          jitter.alpha = 0.4,
-                         outlier.shape = 24,
+                         outlier.shape = NA,
                          outlier.size = 2,
                          outlier.intersect = TRUE,
                          errorbar.draw = TRUE,
@@ -223,7 +223,7 @@ ablplot <- ggplot(HareMorphStoich_norep,
            geom_boxjitter(jitter.shape = 21,
                           jitter.size = 2,
                           jitter.alpha = 0.4,
-                          outlier.shape = 24,
+                          outlier.shape = NA,
                           outlier.size = 2,
                           outlier.intersect = TRUE,
                           errorbar.draw = TRUE,
