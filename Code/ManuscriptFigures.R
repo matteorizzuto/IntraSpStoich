@@ -1,5 +1,5 @@
 # Define colorblind-safe palette for 2 groups
-RdBl <- c("#ca0020","#0571b0")
+RdBl <- c("#1b7837","#762a83")
 
 # Create panel labels for later faceting
 labels_conc <- c("C_mean" = "Carbon", "N_mean" = "Nitrogen", "P" = "Phosphorus")
@@ -40,8 +40,7 @@ ggplot(HareConcentrations_noreplong, aes(x = Hare_Sex, y = Concentration)) +
         strip.text = element_text(colour = "black")) + 
   facet_wrap(~Nutrient, scales = "free_y", labeller = as_labeller(labels_conc))
 
-ggsave("Figure1_ConcBySex.pdf", device = "pdf", dpi = 600, 
-       bg = "transparent", height = 8, width = 12)
+ggsave("Figure1_ConcBySex.pdf", device = "pdf", dpi = 1000)
 
 
 #### Figure 2 in Manuscript ####
@@ -67,8 +66,7 @@ ggplot(HareConcentrations_noreplong, aes(x = K_n, y = Concentration)) +
         strip.text = element_text(colour = "black"))  + 
   facet_wrap(~Nutrient, scales = "free_y", labeller = as_labeller(labels_conc))
 
-ggsave("Figure2_ConcByKn.pdf", device = "pdf", dpi = 600, bg = "transparent",
-       height = 8, width = 12)
+ggsave("Figure2_ConcByKn.pdf", device = "pdf", dpi = 1000)
 
 
 #### Figure 3 in Manuscript ####
@@ -147,22 +145,21 @@ concSexp <- ggplot(HareConcentrations_noreplong, aes(x = EstimatedAge,
 ConcStoich_plot <- ggarrange(concSexp, molRsexp, ncol = 1, nrow = 2, 
                              common.legend = TRUE, legend = "right")
 
-ggsave("Figure3_ConcStoichPlot.pdf", ConcStoich_plot,  device = "pdf", 
-       dpi = 600, height = 8, width = 12)
+ggsave("Figure3_ConcStoichPlot.pdf", ConcStoich_plot, device = "pdf", dpi = 1000)
 
 
 
 ##### SI FIGURES #####
 
 # Figure S1
-ggsave("FigureS1_SMIplots.pdf", smiplots, device = "pdf", dpi = 600, height = 10, width = 10)
+ggsave("FigureS1_SMIplots.pdf", smiplots, device = "pdf", dpi = 1000, height = 10, width = 10)
 
 # Figure S2
-ggsave("FigureS2_C_explorer.pdf", cvar_boxplot, device = "pdf", dpi = 600, 
+ggsave("FigureS2_C_explorer.pdf", cvar_boxplot, device = "pdf", dpi = 1000, 
        height = 12, width = 8) 
 
 # Figure S3
-ggsave("FigureS3_N_explorer.pdf", nvar_boxplot, device = "pdf", dpi = 600, 
+ggsave("FigureS3_N_explorer.pdf", nvar_boxplot, device = "pdf", dpi = 1000, 
        height = 12, width = 8)
 
 # Figure S4 - Variability in P among the 5 samples that were run in triplicate
@@ -173,7 +170,7 @@ pvar_boxplot <- ggplot(data = pseudoreps, aes(x = SpecimenLabel, y = P)) +
   xlab("Sample ID") +
   theme_minimal() 
 
-ggsave("FigureS4_P_explorer.pdf", pvar_boxplot, device = "pdf", dpi = 600) 
+ggsave("FigureS4_P_explorer.pdf", pvar_boxplot, device = "pdf", dpi = 1000) 
 
 
 # Figure S5
@@ -247,5 +244,4 @@ ablplot <- ggplot(HareMorphStoich_norep,
 bcivsage <- ggarrange(knplot, ablplot, ncol = 2, nrow = 1, labels = "auto", 
 						common.legend = TRUE, legend = "right")
 
-ggsave(filename = "FigureS5_BCIvsAge.pdf", bcivsage, device = "pdf", 
-		dpi = 600, height = 6, width = 8)
+ggsave(filename = "FigureS5_BCIvsAge.pdf", bcivsage, device = "pdf", dpi = 1000)

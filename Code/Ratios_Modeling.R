@@ -162,7 +162,7 @@ for (i in 1:length(Mod.names)){
 
 CN_AICcTab <- merge(CN_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(CN_AICcTab, filename = "../Results/CN_AICcTab.tex") 
+# gtsave(CN_AICcTab, filename = "../Results/CN_AICcTab.tex") 
 
 
 
@@ -317,7 +317,7 @@ for (i in 1:length(Mod.names)){
 
 CP_AICcTab <- merge(CP_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3) 
 
-gtsave(CP_AICcTab, filename = "../Results/CP_AICcTab.tex") 
+# gtsave(CP_AICcTab, filename = "../Results/CP_AICcTab.tex") 
 
 
 #### N:P ratio ####
@@ -471,7 +471,7 @@ for (i in 1:length(Mod.names)){
 
 NP_AICcTab <- merge(NP_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(NP_AICcTab, filename = "../Results/NP_AICcTab.tex") 
+# gtsave(NP_AICcTab, filename = "../Results/NP_AICcTab.tex") 
 
 
 
@@ -561,7 +561,7 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkCN_AICcTab <- merge(SkCN_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(SkCN_AICcTab, filename = "../Results/SkCN_AICcTab.tex") 
+# gtsave(SkCN_AICcTab, filename = "../Results/SkCN_AICcTab.tex") 
 
 
 
@@ -643,7 +643,7 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkCP_AICcTab <- merge(SkCP_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(SkCP_AICcTab, filename = "../Results/SkCP_AICcTab.tex") 
+# gtsave(SkCP_AICcTab, filename = "../Results/SkCP_AICcTab.tex") 
 
 
 
@@ -725,4 +725,4 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkNP_AICcTab <- merge(SkNP_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2") %>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(SkNP_AICcTab, filename = "../Results/SkNP_AICcTab.tex") 
+# gtsave(SkNP_AICcTab, filename = "../Results/SkNP_AICcTab.tex") 

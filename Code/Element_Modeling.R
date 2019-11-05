@@ -213,7 +213,7 @@ for (i in 1:length(Mod.names)){
 
 C_AICcTab <- merge(C_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2") %>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3) 
 
-gtsave(C_AICcTab, filename = "../Results/C_AICcTab.tex")
+# gtsave(C_AICcTab, filename = "../Results/C_AICcTab.tex")
 
 
 
@@ -376,7 +376,7 @@ for (i in 1:length(Mod.names)){
 
 N_AICcTab <- merge(N_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2") %>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(N_AICcTab, filename = "../Results/N_AICcTab.tex")
+# gtsave(N_AICcTab, filename = "../Results/N_AICcTab.tex")
 
 
 ##### PHOSPHORUS ####
@@ -537,7 +537,7 @@ for (i in 1:length(Mod.names)){
 
 P_AICcTab <- merge(P_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(P_AICcTab, filename = "../Results/P_AICcTab.tex") 
+# gtsave(P_AICcTab, filename = "../Results/P_AICcTab.tex") 
 
 
 # For good measure, check for collinearity among explanatory variables
@@ -665,7 +665,7 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkC_AICcTab <- merge(SkC_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(SkC_AICcTab, filename = "../Results/SkC_AICcTab.tex") 
+# gtsave(SkC_AICcTab, filename = "../Results/SkC_AICcTab.tex") 
 
 
 #### NITROGEN ####
@@ -753,7 +753,7 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkN_AICcTab <- merge(SkN_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3) 
 
-gtsave(SkN_AICcTab, filename = "../Results/SkN_AICcTab.tex") 
+# gtsave(SkN_AICcTab, filename = "../Results/SkN_AICcTab.tex") 
 
 
 #### PHOSPHORUS ####
@@ -842,7 +842,7 @@ for (i in 1:length(Mod.names_Sk)){
 
 SkP_AICcTab <- merge(SkP_tab_out, storeR2, by = "Modnames") %>% dplyr::arrange(., Delta_AICc) %>% gt() %>% cols_hide(columns = vars(ModelLik, AICcWt, Cum.Wt)) %>% cols_label(Modnames = "Model", K = "k", Delta_AICc = "Delta AICc", R2 = "R^2")%>% fmt_number(columns = vars(AICc, Delta_AICc, LL, R2), decimals = 3)
 
-gtsave(SkP_AICcTab, filename = "../Results/SkP_AICcTab.tex") 
+# gtsave(SkP_AICcTab, filename = "../Results/SkP_AICcTab.tex") 
 
 
 # For good measure, check for collinearity between explanatory variables
